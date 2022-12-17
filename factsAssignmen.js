@@ -1,0 +1,14 @@
+var data= (0=='');
+console.log(`result of [0==''] is :`,data);
+var data1= (0=='0');
+console.log(`result of [0=='0'] is :`,data1);
+var data2= (0==false);
+console.log(`result of [0==false] is :`,data2);
+var data3= (null==undefined);
+console.log(`result of [null==undefined] is :`,data3);
+var data4= (1==[1]);
+console.log(`result of [1==[1]] is :`,data4);
+var data5= (1==true);
+console.log(`result of [1==true] is :`,data5);
+var data6= (1==`1`);
+console.log(`result of [0=='1'] is :`,data6);
