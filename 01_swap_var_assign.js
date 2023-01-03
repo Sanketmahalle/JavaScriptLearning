@@ -22,8 +22,10 @@ var temp1 = num1;
 var temp2 = num3;
 
 console.log("--------After Swap--------");
+
 num1 = num2;
 num2 = temp2;
 num3 = temp1;
+
 console.log("num1", "num2", "num3");
 console.log(num1, " " + num2, " " + num3);

@@ -1,20 +1,32 @@
-console.log("Codemind Technlogy");
+// 
 
-var string = "Technology";
 
-// var reverseString= "Technology";
-var lastCharPosition = string.length-1;
+function abc() {
+ 
+   var x=10;
+   console.log(x);
 
-// console.log(company);
-// console.log(company.length);
-// console.log(company.lastIndexOf(19));
-for (let index = lastCharPosition ; index >= 0; index--) {
-   var char = string.charAt(index);
-   var char2 = string.charAt(3);
-   reverseString = string.concat(char);
+   if (x<6) {
 
+      var A=5;
+      console.log(`if`,A);
+   }else{
+      console.log(`else`,A);
+   }
+   
+   console.log(A);
 }
 
-console.log(char);
-console.log(char2);
-console.log(reverseString);
+
+
+ abc();
+
+
+
+
+
+
+
+
+
+
