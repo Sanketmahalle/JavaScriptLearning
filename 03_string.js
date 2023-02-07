@@ -1,10 +1,16 @@
 var greet = "Good Morning";
-var io = greet.indexOf("nin"); //indexOf
-console.log(io);
-console.log(greet.length); //lenght
-console.log(greet.charAt(greet - 1)); //charAt()
-var rep = greet.replace("Morning", "evening"); //replace()
-console.log(rep);
+
+console.log(greet.split(' ').join(''));
+
+
+
+
+// var io = greet.indexOf("nin"); //indexOf
+// console.log(io);
+// console.log(greet.length); //lenght
+// console.log(greet.charAt(greet - 1)); //charAt()
+// var rep = greet.replace("Morning", "evening"); //replace()
+// console.log(rep);
 
 // var fName="sanket"//concatinaton
 // var lName="mahalle"

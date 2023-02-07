@@ -20,21 +20,27 @@ console.log(eligibleForVote(200));
 console.log(eligibleForVote(0));
 
 console.log("2. -------------Grade system-------------");
+
 console.log("2. Grade System.");
 
 var gradeCalculation = function (marks) {
+
   if (marks >= 90 && marks < 100) {
     console.log(`Funtastic marks: ${marks} , your grade is A+.`);
   }
+
   if (marks >= 75 && marks < 90) {
     console.log(`Excellent marks; ${marks} , your grade is 'A'.`);
   }
+
   if (marks >= 50 && marks < 75) {
     console.log(`Good marks: ${marks} , your grade is 'B'.`);
   }
+
   if (marks >= 35 && marks < 50) {
     console.log(`marks ${marks} , your grade is 'C', Need improvement.`);
   }
+  
   if (marks <= 0 || marks > 100) {
     console.log(`${marks} Please provide the valid marks.`);
   }

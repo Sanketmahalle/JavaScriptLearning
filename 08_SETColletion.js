@@ -6,6 +6,7 @@ set.add("1sanket")//add element
 set.add("2sanket");
 set.add("honey");
 set.add("honey");
+set.add(true);
 
 console.log(set);
 
@@ -19,7 +20,7 @@ console.log(set);
 // console.log(set.entries());//entries() method returns an iterator to retrieve key-value pairs 
 // //set.clear();//delete the element
 
-// console.log(set.has("xyz"));//check element is present or not
+ console.log(set.has(true));//check element is present or not
 
 
 

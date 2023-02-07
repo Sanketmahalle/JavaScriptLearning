@@ -38,6 +38,7 @@ this.name=name;
 this.rollNo=rollNo;
     }
 }
+string.inc
 
 
 let stud =new Student(25,"sunny",25,"BE");

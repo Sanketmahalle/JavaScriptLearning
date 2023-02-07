@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Session Storage</title>
+</head>
+<body>
+    <h2>Session Storage Learning</h2>
+
+    <script>
+        
+        console.log("Hello --> Session Storage");
+
+        window.sessionStorage.setItem()
+       
+
+        window.sessionStorage.setItem("Name","Sunny");
+        window.sessionStorage.setItem("Grade","A");
+        window.sessionStorage.setItem("FName","M");
+        window.sessionStorage.setItem("marks","100");
+        
+
+        let x=window.sessionStorage.length;
+        console.log(x);
+        let get=window.sessionStorage.getItem("Grade");
+        console.log(get);
+
+    </script>
+
+</body>
+</html>
